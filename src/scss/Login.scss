@@ -1,0 +1,37 @@
+.cultivate-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 77px;
+
+  &__label {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  &__input {
+    height: 23px;
+    width: 492px;
+    margin-top: 5px;
+    padding: 2px;
+    border: #D1D1D1 solid 1px;
+    border-radius: 4px;
+  }
+
+  &__submit-button {
+    height: 33px;
+    width: 186px;
+    margin: 17px 0;
+    font-size: 18px;
+    border-color: transparent;
+    border-radius: 4px;
+    background-color: #00a76a;
+    color: white;
+  }
+
+  &__new-key-link {
+    font-size: 14px;
+    color: #096489;
+    text-decoration: underline;
+  }
+}
