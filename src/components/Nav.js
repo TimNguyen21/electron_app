@@ -11,11 +11,11 @@ const Nav = () => {
             <Link to={'/entry'}>
                 <button>Entry</button>
             </Link>
-            <Link to={'/summary'}>
-                <button>Summaries</button>
-            </Link>
             <Link to={'/confirmation'}>
                 <button>Confirmation</button>
+            </Link>
+            <Link to={'/summary'}>
+                <button>Summary</button>
             </Link>
         </section>
     )

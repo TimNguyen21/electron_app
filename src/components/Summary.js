@@ -3,9 +3,11 @@ import '../scss/Summary.scss'
 
 const Summary = () => {
     return (
-        <div className="cultivate-summary">
-            Summary stuff
-        </div>
+        <section className="cultivate-summary">
+            <label>Thank You!</label>
+            <div>Your upload is complete. Your Care2 client services team has been alerted.</div>
+            <div>They’ll reach out to you to confirm final numbers before you are live.</div>
+        </section>
     )
 }
 
