@@ -1,6 +1,7 @@
 import React from 'react';
 import UplaodInfo from './UploadInfo'
 import '../scss/Entry.scss'
+import UploadLogo from '../images/UploadLogo.png'
 
 const Entry = () => {
     return (
@@ -14,7 +15,14 @@ const Entry = () => {
                 </div>
             </div>
             <div className="cultivate-entry-file-wrapper">
+                <div className="cultivate-entry-file-upload">
+                    <div>Drag CSV Files To Upload</div>
+                    <img src={UploadLogo} />
+                    <div>Or Select Files Here</div>
+                </div>
+                <div className="cultivate-entry-file-upload-summary">
 
+                </div>
             </div>
             <div className="cultivate-entry-button-wrapper">
                 <input type='button' value="Cancel All" />

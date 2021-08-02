@@ -16,19 +16,74 @@
         span {
           color: #096489;
           text-decoration: underline;
+          cursor: pointer;
         }
       }
     }
   }
 
-  &-file-wrapper {
-    height: 340px;
-    background-color: #EBEBEB;
+  &-file {
+    &-wrapper {
+      display: flex;
+      justify-content: center;
+      background-color: #EBEBEB;
+      padding: 24px 45px 24px 26px;
+    }
+
+    &-upload {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 28px 10px 12px 10px;
+      width: 325px;
+      background-color: #ffffff;
+
+      div:nth-child(1) {
+        color: green;
+        font-size: 18px;
+        font-weight: bold;
+        white-space: nowrap;
+      }
+
+      div:nth-child(3) {
+        color: #096489;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+
+      &-summary {
+        background-color: white;
+        height: 220px;
+        width: 100%;
+        margin-left: 15px;
+      }
+    }
+
   }
 
   &-button-wrapper {
     display: flex;
     justify-content: center;
+    margin: 20px 0 57px 0;
+
+    input {
+      height: 35px;
+      width: 181px;
+      border-radius: 4px;
+      color: white;
+      border-color: transparent;
+    }
+
+    input:first-child {
+      margin-right: 17px;
+      background-color: #BFBEBE;
+    }
+
+    input:nth-child(2) {
+      margin-left: 17px;
+      background-color: #00A76A;
+    }
   }
 
 }

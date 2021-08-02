@@ -10,6 +10,7 @@
       span {
         color: #096489;
         text-decoration: underline;
+        cursor: pointer;
       }
     }
 
@@ -28,12 +29,15 @@
     }
 
     div:nth-child(12) {
+      display: flex;
+      justify-content: flex-end;
       color: #096489;
+
       span {
         text-decoration: underline;
+        cursor: pointer;
       }
     }
-
   }
 
   &-status-wrapper {
