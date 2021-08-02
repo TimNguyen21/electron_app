@@ -1,0 +1,51 @@
+.cultivate-upload {
+  &-info {
+    color: #464646;
+
+    div {
+      margin: 15px;
+    }
+
+    div:nth-child(2) {
+      span {
+        color: #096489;
+        text-decoration: underline;
+      }
+    }
+
+    div:nth-child(1) {
+      font-weight: bold;
+    }
+
+    div:nth-child(3) {
+      span {
+        font-weight: bold;
+      }
+    }
+
+    div:nth-child(9) {
+      font-weight: bold;
+    }
+
+    div:nth-child(12) {
+      color: #096489;
+      span {
+        text-decoration: underline;
+      }
+    }
+
+  }
+
+  &-status-wrapper {
+    display: flex;
+
+    div {
+      font-weight: bold;
+      margin-left: 25px;
+    }
+  }
+}
+
+.border-line {
+  border-bottom: #EBEBEB solid 1px;
+}

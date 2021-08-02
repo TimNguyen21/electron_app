@@ -6,16 +6,16 @@ const Nav = () => {
     return (
         <section className="cultivate-nav">
             <Link to={'/login'}>
-                <button>Login</button>
+                <button>Key Login</button>
             </Link>
             <Link to={'/entry'}>
-                <button>Entry</button>
+                <button>Processing</button>
             </Link>
             <Link to={'/confirmation'}>
-                <button>Confirmation</button>
+                <button>Results</button>
             </Link>
             <Link to={'/summary'}>
-                <button>Summary</button>
+                <button>Thank You</button>
             </Link>
         </section>
     )
