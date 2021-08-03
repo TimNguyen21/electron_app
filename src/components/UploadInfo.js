@@ -3,12 +3,12 @@ import '../scss/UploadInfo.scss'
 
 const UploadInfo = () => {
     return (
-        <section class="cultivate-upload-info">
+        <section class="cultivate-upload__info">
             <div>How to Create Your Annual Cohort* List</div>
             <div>Start by <span>downloading</span> the sample CSV file.</div>
             <div>Your <span>CSV</span> file(s) must have the following headers: Email, Donor, Active</div>
             <div>Donor and activity statuses must be boolean (True/False)</div>
-            <div class="cultivate-upload-status-wrapper">
+            <div class="cultivate-upload__info-status-wrapper">
                 <div>Donor=True</div>
                 <div>Non-Donor=False</div>
                 <div>Active=True</div>

@@ -1,5 +1,5 @@
 .cultivate-upload-status {
-  &-error {
+  &__error {
     &-wrapper {
       display: flex;
       padding: 9px 15px;
@@ -31,7 +31,7 @@
     }
   }
 
-  &-file {
+  &__file {
     &-wrapper {
       display: flex;
       margin-bottom: 15px;

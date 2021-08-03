@@ -4,11 +4,7 @@
   justify-content: center;
   margin-top: 19px;
 
-  &-wrapper {
-    //background-color: #F6F6F6;
-  }
-
-  &-header-label {
+  &__header-label {
     font-weight: bold;
     font-size: 24px;
     margin-bottom: 5px;
@@ -21,7 +17,7 @@
     }
   }
 
-  &-confirmation {
+  &__confirmation {
     &-wrapper {
       display: flex;
       justify-content: center;
@@ -53,7 +49,7 @@
     }
   }
 
-  &-summary {
+  &__summary {
     &-wrapper {
       display: flex;
       justify-content: space-around;

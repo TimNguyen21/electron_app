@@ -7,26 +7,26 @@ import UploadStatus from "./UploadStatus";
 
 const Entry = () => {
     return (
-        <section class="cultivate-entry">
-            <div class="cultivate-entry-header-label-wrapper">
-                <div class="cultivate-entry-header-label">
-                    Hi, <span class="cultivate-entry-client-label">Friends From Healthy Cities Foundation</span>
+        <section class="cultivate-processing">
+            <div class="cultivate-processing-header-label-wrapper">
+                <div class="cultivate-processing-header-label">
+                    Hi, <span class="cultivate-processing-client-label">Friends From Healthy Cities Foundation</span>
                 </div>
                 <div>
                     It’s time to create your annual cohort list. <span>Need help?</span> No problem!
                 </div>
             </div>
-            <div class="cultivate-entry-file-wrapper">
-                <div class="cultivate-entry-file-upload">
+            <div class="cultivate-processing-file-wrapper">
+                <div class="cultivate-processing-file-upload">
                     <div>Drag CSV Files To Upload</div>
                     <img src={UploadLogo} />
                     <div>Or Select Files Here</div>
                 </div>
-                <div class="cultivate-entry-file-upload-summary">
+                <div class="cultivate-processing-file-upload-summary">
                     <UploadStatus />
                 </div>
             </div>
-            <div class="cultivate-entry-button-wrapper">
+            <div class="cultivate-processing-button-wrapper">
                 <input type='button' value="Cancel All" />
                 <input type='button' value="Next" />
             </div>

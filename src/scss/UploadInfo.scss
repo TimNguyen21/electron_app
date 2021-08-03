@@ -1,5 +1,5 @@
 .cultivate-upload {
-  &-info {
+  &__info {
     color: #464646;
 
     div {
@@ -38,14 +38,14 @@
         cursor: pointer;
       }
     }
-  }
 
-  &-status-wrapper {
-    display: flex;
+    &-status-wrapper {
+      display: flex;
 
-    div {
-      font-weight: bold;
-      margin-left: 25px;
+      div {
+        font-weight: bold;
+        margin-left: 25px;
+      }
     }
   }
 }
