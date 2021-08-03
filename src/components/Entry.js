@@ -1,7 +1,9 @@
 import React from 'react';
 import UplaodInfo from './UploadInfo'
+import UplaodStatus from './UploadStatus'
 import '../scss/Entry.scss'
 import UploadLogo from '../images/UploadLogo.png'
+import UploadStatus from "./UploadStatus";
 
 const Entry = () => {
     return (
@@ -21,7 +23,7 @@ const Entry = () => {
                     <div>Or Select Files Here</div>
                 </div>
                 <div className="cultivate-entry-file-upload-summary">
-
+                    <UploadStatus />
                 </div>
             </div>
             <div className="cultivate-entry-button-wrapper">

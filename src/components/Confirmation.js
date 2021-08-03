@@ -3,9 +3,9 @@ import '../scss/Confirmation.scss'
 
 const Confirmation = () => {
     return (
-        <div className="cultivate-confirmation">
-            Confirmation stuff
-        </div>
+        <section className="cultivate-results">
+            Results
+        </section>
     )
 }
 

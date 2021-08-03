@@ -1,0 +1,76 @@
+.cultivate-upload-status {
+  &-error {
+    &-wrapper {
+      display: flex;
+      padding: 9px 15px;
+      background-color: #F6ECEC;
+      border: #E10000 solid 1px;
+      border-radius: 9px;
+      height: 35px;
+      white-space: nowrap;
+      margin-bottom: 13px;
+    }
+
+    &-icon {
+      height: 40px;
+      width: 30px;
+      margin-right: 5px;
+    }
+
+    &-message {
+      span:nth-of-type(1) {
+        text-decoration: underline;
+        font-weight: bold;
+      }
+
+      span:nth-of-type(2) {
+        color: #096489;
+        text-decoration: underline;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &-file {
+    &-wrapper {
+      display: flex;
+      margin-bottom: 15px;
+      border: #CCCCCC solid 1px;
+    }
+
+    &-percentage {
+      display: flex;
+      justify-content: center;
+      width: 73px;
+      background-color: #F3F3F3;
+      color: #00A76A;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 4px 0;
+    }
+
+    &-name-wrapper {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 4px 17px;
+      background-color: white;
+      border-left: #cccccc solid 1px;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    &-remove-button {
+      cursor: pointer;
+    }
+  }
+}
+
+.has-upload-error {
+  border: #CE0000 solid 2px;
+
+  .cultivate-upload-status-file-percentage {
+    background-color: #CE0000;
+    color: white;
+  }
+}
