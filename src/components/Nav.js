@@ -4,7 +4,7 @@ import '../scss/Nav.scss'
 
 const Nav = () => {
     return (
-        <section className="cultivate-nav">
+        <section class="cultivate-nav">
             <Link to={'/login'}>
                 <button>Key Login</button>
             </Link>

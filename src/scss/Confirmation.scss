@@ -5,7 +5,7 @@
   margin-top: 19px;
 
   &-wrapper {
-    background-color: #F6F6F6;
+    //background-color: #F6F6F6;
   }
 
   &-header-label {
@@ -54,17 +54,22 @@
   }
 
   &-summary {
-    display: flex;
-    justify-content: space-around;
-    white-space: nowrap;
+    &-wrapper {
+      display: flex;
+      justify-content: space-around;
+      background-color: #F6F6F6;
+      white-space: nowrap;
+    }
 
     &-emails,
     &-donors,
     &-non-donors,
     &-actives,
     &-non-actives {
-      border: #D2D2D2 solid 1px;
-      width: 100%;
+      &-wrapper {
+        border: #D2D2D2 solid 1px;
+        width: 100%;
+      }
 
       &-label {
         font-weight: bold;

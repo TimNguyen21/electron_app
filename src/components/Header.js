@@ -4,7 +4,7 @@ import care2Logo from '../images/care2Logo.png'
 
 const Header = () => {
     return (
-        <div className="cultivate-header">
+        <div class="cultivate-header">
             <img src={care2Logo} />
         </div>
     )
