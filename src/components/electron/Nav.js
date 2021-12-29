@@ -5,16 +5,16 @@ import '../../scss/electron/Nav.scss'
 const Nav = () => {
     return (
         <section class="cultivate-nav">
-            <Link to={'/login'}>
+            <Link to={'/electron/login'}>
                 <button>Key Login</button>
             </Link>
-            <Link to={'/entry'}>
+            <Link to={'/electron/entry'}>
                 <button>Processing</button>
             </Link>
-            <Link to={'/confirmation'}>
+            <Link to={'/electron/confirmation'}>
                 <button>Results</button>
             </Link>
-            <Link to={'/summary'}>
+            <Link to={'/electron/summary'}>
                 <button>Thank You</button>
             </Link>
         </section>
