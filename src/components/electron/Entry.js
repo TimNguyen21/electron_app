@@ -1,9 +1,8 @@
 import React from 'react';
 import UplaodInfo from './UploadInfo'
-import UplaodStatus from './UploadStatus'
-import '../scss/Entry.scss'
-import UploadLogo from '../images/UploadLogo.png'
-import UploadStatus from "./UploadStatus";
+import UploadStatus from './UploadStatus'
+import '../../scss/electron/Entry.scss'
+import UploadLogo from '../../images/UploadLogo.png'
 
 const Entry = () => {
     return (

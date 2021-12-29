@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Header from './Header'
-import Nav from './Nav'
-import Login from './Login'
-import Entry from './Entry'
-import Summary from './Summary'
-import Confirmation from './Confirmation'
+import Header from './electron/Header'
+import Nav from './electron/Nav'
+import Login from './electron/Login'
+import Entry from './electron/Entry'
+import Summary from './electron/Summary'
+import Confirmation from './electron/Confirmation'
 import { Route, Switch } from "react-router-dom";
 import '../scss/App.scss';
 

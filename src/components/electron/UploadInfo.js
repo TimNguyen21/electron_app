@@ -1,5 +1,5 @@
 import React from 'react';
-import '../scss/UploadInfo.scss'
+import '../../scss/electron/UploadInfo.scss'
 
 const UploadInfo = () => {
     return (

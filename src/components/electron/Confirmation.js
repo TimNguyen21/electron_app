@@ -1,5 +1,5 @@
 import React from 'react';
-import '../scss/Confirmation.scss'
+import '../../scss/electron/Confirmation.scss'
 
 const Confirmation = () => {
     return (

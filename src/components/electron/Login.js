@@ -1,5 +1,5 @@
 import React from 'react';
-import '../scss/Login.scss'
+import '../../scss/electron/Login.scss'
 
 const Login = () => {
     return (

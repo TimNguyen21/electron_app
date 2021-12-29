@@ -1,5 +1,5 @@
 import React from 'react';
-import '../scss/Summary.scss'
+import '../../scss/electron/Summary.scss'
 
 const Summary = () => {
     return (
