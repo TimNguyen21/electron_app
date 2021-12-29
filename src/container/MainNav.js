@@ -5,7 +5,7 @@ import '../scss/container/MainNav.scss';
 const MainNav = () => {
     return (
         <section class="main-nav">
-            <Link to={'/electron'}>
+            <Link to={'/electron/login'}>
                 <button>Electron App Design</button>
             </Link>
         </section>
