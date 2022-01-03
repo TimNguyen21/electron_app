@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../scss/electron/UploadStatus.scss'
-import errorLogo from '../../images/errorLogo.png'
+import errorLogo from '../../images/electron/errorLogo.png'
 
 const UploadStatus = () => {
     return (

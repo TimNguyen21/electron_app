@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../scss/electron/Header.scss'
-import care2Logo from '../../images/care2Logo.png'
+import care2Logo from '../../images/electron/care2Logo.png'
 
 const Header = () => {
     return (

@@ -1,0 +1,57 @@
+.create-flow-start-up {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    font-size: 27px;
+    margin: 30px 0;
+  }
+
+  &__form {
+    width: 650px;
+  }
+
+  &__input {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    input {
+      height: 50px;
+      margin-bottom: 40px;
+      padding: 0 10px;
+      font-size: 22px;
+      color: gray;
+    }
+  }
+
+  &__build-petition-button {
+    position: relative;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 60px;
+    width: 265px;
+    font-weight: bold;
+    background-color: #00A76A;
+    box-shadow: inset 0 -3px 0 0 #017C4F;
+
+    &:active {
+      top: 3px;
+      box-shadow: inset 0 0 0 0;
+      transition: all .1s;
+    }
+  }
+}

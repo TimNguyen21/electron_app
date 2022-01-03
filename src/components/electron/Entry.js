@@ -2,7 +2,7 @@ import React from 'react';
 import UplaodInfo from './UploadInfo'
 import UploadStatus from './UploadStatus'
 import '../../scss/electron/Entry.scss'
-import UploadLogo from '../../images/UploadLogo.png'
+import UploadLogo from '../../images/electron/UploadLogo.png'
 
 const Entry = () => {
     return (

@@ -8,11 +8,11 @@ const Nav = () => {
             <Link to={'/create-flow/start-page'}>
                 <button>Start Page</button>
             </Link>
-            <Link to={'/create-flow/tutorial'}>
-                <button>Tutorial</button>
-            </Link>
             <Link to={'/create-flow/form'}>
                 <button>Form</button>
+            </Link>
+            <Link to={'/create-flow/tutorial'}>
+                <button>Tutorial</button>
             </Link>
             <Link to={'/create-flow/upload-image'}>
                 <button>Upload Image</button>
