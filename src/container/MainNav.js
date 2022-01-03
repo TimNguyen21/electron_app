@@ -8,6 +8,9 @@ const MainNav = () => {
             <Link to={'/electron/login'}>
                 <button>Electron App Design</button>
             </Link>
+            <Link to={'/create-flow/start-page'}>
+                <button>Petition Create Flow Design</button>
+            </Link>
         </section>
     )
 }
