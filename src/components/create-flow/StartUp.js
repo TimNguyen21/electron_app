@@ -9,7 +9,7 @@ const StartUp = () => {
                 <img src={care2Logo} />
             </header>
             <form class="create-flow-start-up__form">
-                <label class='create-flow-start-up__header'>LET'S GET STARTED WITH A FEW EASY QUESTIONS</label>
+                <label class='create-flow-start-up__header-label'>LET'S GET STARTED WITH A FEW EASY QUESTIONS</label>
                 <div class='create-flow-start-up__input'>
                     <label>WHAT IS YOUR NAME?</label>
                     <input />
